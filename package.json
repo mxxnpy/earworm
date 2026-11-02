@@ -1,0 +1,17 @@
+{
+  "name": "earworm",
+  "version": "1.0.0",
+  "description": "A live Spotify \"now playing\" card for your GitHub profile, served free by a Cloudflare Worker.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "auth": "node scripts/auth.mjs",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "previews": "node scripts/previews.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

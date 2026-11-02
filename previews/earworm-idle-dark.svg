@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Nothing playing: Nothing playing right now by Spotify is quiet" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>Nothing playing: Nothing playing right now by Spotify is quiet</title>
+<style>
+text { white-space: pre; }
+.label { fill: #8a90a8; font-size: 15px; letter-spacing: .18em; }
+.rule { stroke: #1d2133; }
+.track { fill: #e8e4d8; font-size: 24px; font-weight: 700; }
+.artist { fill: #8a90a8; font-size: 19px; }
+.idx { fill: #8a90a8; font-size: 15px; }
+.rtrack { fill: #e8e4d8; font-size: 19px; }
+.rartist { fill: #8a90a8; font-size: 19px; }
+.disc { fill: none; stroke: #f1d79a; }
+.spin { transform-origin: 82px 104px; animation: spin 3.2s linear infinite; animation-play-state: paused; }
+.bar { fill: #f1d79a; transform-box: fill-box; transform-origin: bottom; animation: eq 1s ease-in-out infinite; animation-play-state: paused; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes eq { 0%, 100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+.bar { animation: none; transform: scaleY(.12); opacity: .45; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="899" height="149" rx="16" fill="#0b0d17" stroke="#1d2133"/>
+<text class="label" x="48" y="56">NOTHING PLAYING</text>
+<line class="rule" x1="240" y1="51" x2="852" y2="51"/>
+<g class="spin">
+<circle class="disc" cx="82" cy="104" r="34" stroke-width="2"/>
+<circle class="disc" cx="82" cy="104" r="22" stroke-width="1" opacity=".5"/>
+<circle class="disc" cx="82" cy="104" r="6" stroke-width="1"/>
+</g>
+<text class="track" x="144" y="100">Nothing playing right now</text>
+<text class="artist" x="144" y="128">Spotify is quiet</text>
+<rect class="bar" x="760" y="84" width="8" height="40" rx="2" style="animation-delay:-0.00s"/>
+<rect class="bar" x="774" y="84" width="8" height="40" rx="2" style="animation-delay:-0.37s"/>
+<rect class="bar" x="788" y="84" width="8" height="40" rx="2" style="animation-delay:-0.74s"/>
+<rect class="bar" x="802" y="84" width="8" height="40" rx="2" style="animation-delay:-0.11s"/>
+<rect class="bar" x="816" y="84" width="8" height="40" rx="2" style="animation-delay:-0.48s"/>
+<rect class="bar" x="830" y="84" width="8" height="40" rx="2" style="animation-delay:-0.85s"/>
+<rect class="bar" x="844" y="84" width="8" height="40" rx="2" style="animation-delay:-0.22s"/>
+
+</svg>
